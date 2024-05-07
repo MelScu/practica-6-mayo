@@ -1,0 +1,64 @@
+body{
+    background-color: darkseagreen;
+    color: aliceblue;
+    margin: 0;
+    display: grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+header{
+    background-color: rgb(179, 209, 179);
+}
+header>h1{
+    text-align: center;
+}
+main{
+    background-color: darkkhaki;
+    display: grid;
+}
+main>table {
+    font-size: larger;
+
+}
+#especial{
+    text-align: center;
+    font-weight: bolder;
+}
+footer{
+    background-color: rgb(101, 134, 101);
+    font-size: x-small;
+    position:fixed;
+    bottom: 0;
+    border-top: 1px solid rgba(240, 248, 255, 0.616);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 2;
+    
+   
+
+}
+footer>ol{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1;
+    margin-left: 40vw;
+    
+    
+    
+  
+}
+footer>address{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1;
+    margin-right: 30vw;
+    }
+ 
+footer>p{
+    text-align: center;
+    font-size: x-small;
+    font-style: italic;
+    width: 100vw;
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 2;
+  }
